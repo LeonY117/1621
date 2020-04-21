@@ -1,0 +1,21 @@
+Ultimate Goal: create a RCNN that detects people, in real time videos. 
+
+I already know: 
+	Basic CNN implementation
+	Basic Neural network maths 
+	Basic Matplotlib, numpy, and TensorFlow
+
+
+I want to learn:
+	How do the weights 'look' like?
+	Difference between activation functions? 
+	How to overcome limitations of my laptop?
+	Where to get more data?
+	How to pre-process data?
+	How to generate more data?
+
+Week 1: April 20th - 27th.
+	Mnist
+	Fashion Mnist
+	Cats and Dogs
+	

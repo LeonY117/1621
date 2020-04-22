@@ -15,7 +15,11 @@ I want to learn:
 	How to generate more data?
 
 Week 1: April 20th - 27th.
+	Matplotlib Visualization
 	Mnist
 	Fashion Mnist
 	Cats and Dogs
+
+	gitHub tips?
+	Notebook tips?
 	

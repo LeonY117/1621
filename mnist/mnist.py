@@ -5,31 +5,7 @@ import numpy as np
 # tensorflow supports version of numpy as 1.16.4 (april 21st)
 import matplotlib.pyplot as plt
 
-# How to organize functions in a file?
-
-
-def plotSingleImage(index=None):
-    if not index:
-        index = np.random.randint(6000)
-
-    # Do i need to clear plt?
-    plt.figure()
-    plt.imshow(train_images[index], cmap='viridis', interpolation='nearest')
-    plt.colorbar()
-    plt.show()
-
-
-def plot25Images():
-    plt.figure(figsize=(8, 8))
-    index = np.random.randint(6000 - 25)
-    for i in range(25):
-        plt.subplot(5, 5, i+1)
-        plt.xticks([])
-        plt.yticks([])
-        plt.grid(False)
-        plt.imshow(train_images[i + index], cmap='gray')
-        plt.xlabel(str(train_labels[i + index]))
-    plt.show()
+import visualisation 
 
 
 # 1. DATA IMPORT & PREPROCESS
@@ -57,10 +33,10 @@ model.compile(optimizer='adam',
               metrics=['accuracy'])
 
 # 5. TRAIN
-model.fit(train_images, train_labels, epochs=10)
+# model.fit(train_images, train_labels, epochs=10)
 
 # 6. EVALUATE
-test_loss, test_acc = model.evaluate(test_images,  test_labels, verbose=2)
+# test_loss, test_acc = model.evaluate(test_images,  test_labels, verbose=2)
 
 
 # DATA VISUALIZATION

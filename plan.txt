@@ -7,7 +7,7 @@ I already know:
 
 
 I want to learn:
-	How do the weights 'look' like?
+	How do the weights 'look' like? [DONE]
 	Difference between activation functions? 
 	How to overcome limitations of my laptop?
 	Where to get more data?
@@ -15,8 +15,8 @@ I want to learn:
 	How to generate more data?
 
 Week 1: April 20th - 27th.
-	Matplotlib Visualization
-	Mnist
+	Matplotlib Visualization [in progress]
+	Mnist [DONE]
 	Fashion Mnist
 	Cats and Dogs
 

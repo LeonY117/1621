@@ -3,7 +3,7 @@ import numpy as np
 
 
 
-def plotSingleImage(data=None, index=None):
+def plot_single_image(data=None, index=None):
     if not index:
         index = np.random.randint(len(data))
     # Do i need to clear plt?
@@ -13,7 +13,7 @@ def plotSingleImage(data=None, index=None):
     plt.show()
 
 
-def plot25Images(data=None, label=None, index=None):
+def plot_25_images(data=None, label=None, index=None):
     plt.figure(figsize=(8, 8))
     if not index:
         index = np.random.randint(len(data) - 25)
